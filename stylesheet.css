@@ -14,7 +14,7 @@ header {
 }
 
 main {
-  height: 900px;
+  height: 1700px;
   width:100%;
   text-align: center;
 }
@@ -27,10 +27,12 @@ footer {
 
 h1 {
   font-size:50px;
+  line-height: 60px;
 }
 
 h2 {
   padding:20px 0 20px 0;
+  font-size: 50px;
 }
 
 .contents {
@@ -38,7 +40,33 @@ h2 {
   font-size: 20px;
 }
 
+p {
+  font-size: 30px;
+}
+
 a,img {
   display: block;
   margin:0 auto;
+}
+
+img {
+  padding:60px;
+}
+
+a {
+  height:50px;
+  width:200px;
+  text-decoration: none;
+  line-height: 50px;
+  border-radius:8px;
+  border-bottom: solid 4px #627295;
+  background-color:blue;
+  color:white;
+}
+
+a:active {
+  position:relative;
+  top:4px;
+  border-bottom: none;
+  opacity: 0.5;
 }
